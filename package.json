@@ -1,7 +1,7 @@
 {
-  "name": "session-anonymous-chat-bot",
+  "name": "session-random-strangers-chat-bot",
   "version": "1.0.0",
-  "description": "Random strangers chat bot in Session",
+  "description": "Chat with random strangers in Session (Session messenger chatbot)",
   "main": "out/index.js",
   "type": "module",
   "scripts": {
