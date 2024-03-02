@@ -20,7 +20,7 @@ const usersLanguages = new Map<SessionID, 'en' | 'ru'>()
 await initializeSession({ profileDataPath: __dirname + '../session-data' })
 const events = new EventEmitter()
 events.on('message', async (message, conversation) => {
-  if (!conversation.isPrivate()) return
+  if (conversation.type !== 'private') return
 
   if(message.dataMessage) {
     const user = conversation.id as SessionID
