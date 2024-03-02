@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   session-messenger-nodejs:
-    specifier: ^1.0.5
-    version: 1.0.5(@babel/core@7.23.7)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    specifier: ^1.2.2
+    version: 1.2.2(@babel/core@7.23.7)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@swc/cli':
@@ -2783,7 +2783,7 @@ packages:
     resolution: {integrity: sha512-lreewLK/BlghmxtfH36YYVg1i8IAce4TI7oao75I1g245+6BctqTVQiBP3YUJ9C6DQOXJmkYR9X9fCLtCOJc5w==}
     hasBin: true
     dependencies:
-      glob: 7.1.2
+      glob: 7.2.3
     dev: false
 
   /rimraf@2.7.1:
@@ -2858,8 +2858,8 @@ packages:
     dependencies:
       lru-cache: 6.0.0
 
-  /session-messenger-nodejs@1.0.5(@babel/core@7.23.7)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-7xXRPARx1e+QllAe0Gv5eqzsKxCcxYTp+0pUzSJ5xhiTwYED8a1JFHppqu9Rk46wgeBmZ2nfpfmnLl96fqBLpw==}
+  /session-messenger-nodejs@1.2.2(@babel/core@7.23.7)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-dwjlIwsNQvb8hyKAXyCO8wu5OnqWgRX1Ot7mprrLa5K7AvjlRDnalhsZwmQWUxiFjBcpUbI8X5caimqNTnTsgA==}
     engines: {node: 18.15.0}
     requiresBuild: true
     dependencies:

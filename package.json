@@ -11,7 +11,7 @@
   "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev/)",
   "license": "MIT",
   "dependencies": {
-    "session-messenger-nodejs": "^1.0.5"
+    "session-messenger-nodejs": "^1.2.2"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",
