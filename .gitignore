@@ -105,6 +105,5 @@ dist
 
 .DS_Store
 
-out
-
-session-data
+.env
+session-data.db
